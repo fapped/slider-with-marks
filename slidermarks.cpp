@@ -3,13 +3,8 @@
 #include <QLabel>
 #include <QSlider>
 #include <QHBoxLayout>
-#include <QStyle>
-#include <QPainter>
-#include <QPaintEvent>
+#include <QVBoxLayout>
 #include <QStyleOptionGraphicsItem>
-
-#include <QGraphicsScene>
-#include <QGraphicsView>
 
 #include <QDebug>
 

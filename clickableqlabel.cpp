@@ -1,5 +1,4 @@
 #include "clickableqlabel.h"
-#include <QMouseEvent>
 #include <QInputDialog>
 #include <QMessageBox>
 
@@ -97,6 +96,7 @@ void ClickableQLabel::mouseDoubleClickEvent(QMouseEvent *event)
                                          tr("Wartość w zakresie %1 - %2:").arg(QString::number(m_minVal), QString::number(m_maxVal)), QLineEdit::Normal,
                                          QString::number(this->originalValue()), &ok);
 
+    //handle input for ms and hh:mm:ss.qq
     if (ok && !text.isEmpty())
     {
         bool isNumber = false;

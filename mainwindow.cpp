@@ -17,22 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-//    QGraphicsScene scene;
-//    QGraphicsView *view = new QGraphicsView();
-
-//    this->setCentralWidget(view);
-
     m_slider = new SliderMarks(this);
     ui->horizontalLayout->addWidget(m_slider);
-
-/*    ClickableQLabel *label = new ClickableQLabel(10000, 0, m_slider);
-    label->move(100, 0)*/;
-
-}
-
-void MainWindow::paintEvent(QPaintEvent *event)
-{
-    QMainWindow::paintEvent(event);
 }
 
 MainWindow::~MainWindow()

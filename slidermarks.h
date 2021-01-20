@@ -2,10 +2,7 @@
 #define SLIDERMARKS_H
 
 #include <QWidget>
-#include <QMap>
-#include <QSlider>
 
-//#include "customline.h"
 #include "clickableqlabel.h"
 
 QT_BEGIN_NAMESPACE
